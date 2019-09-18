@@ -1,4 +1,4 @@
 {
-  "MONGO_URI": "PUT_YOUR_MONGO_URI",
+  "MONGO_URI": "mongodb://localhost:27017/portal",
   "JWT_SECRET": "sl_myJwtSecret"
 }

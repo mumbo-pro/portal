@@ -1,8 +1,8 @@
 {
   "name": "portal",
-  "version": "0.0.1",  
+  "version": "0.0.1",
   "main": "server.js",
-  "scripts": { 
+  "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
@@ -11,13 +11,14 @@
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "concurrently": "^3.6.0",
-    "config": "^3.0.1",
-    "express": "^4.16.3",
-    "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.1.6"
+    "concurrently": "^4.1.2",
+    "config": "^3.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.19.2"
   }
 }
