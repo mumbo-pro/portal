@@ -1,4 +1,4 @@
 {
-  "mongoURI": "PUT_YOUR_MONGO_URI",
-  "jwtSecret": "sl_myJwtSecret"
+  "MONGO_URI": "PUT_YOUR_MONGO_URI",
+  "JWT_SECRET": "sl_myJwtSecret"
 }

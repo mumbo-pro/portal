@@ -1,5 +1,5 @@
-# portal
-A minimal portal
+# portal api
+A minimal portal api
 
 ---
 
@@ -25,3 +25,6 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 
     $ node app
 
+# License
+
+MIT License
