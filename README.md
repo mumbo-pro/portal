@@ -14,7 +14,7 @@ A case study project to connect with recruiters, HR managers & people in the sam
 - Bootstrap 4 + Font Awesome 5
 
 
-#### 🛸Portal-Engine
+#### 🛸Portal-Engine [Github](https://github.com/mumbo-pro/portal/) 
 The API is organized around REST.
 
 The API is designed to have:
@@ -24,7 +24,7 @@ The API is designed to have:
 
 > JSON is returned in all responses from the API, including errors.
 
-#### 🚁 Portal-Front
+#### 🚁 Portal-Front [Github](https://github.com/mumbo-pro/portal-front/) 
 
 A frontend baked with React
 
