@@ -67,6 +67,11 @@ cp .env.example .env
 yarn run serve
 ```
 
+- Testing
+```
+yarn run test
+```
+
 #### Production
 
 ```bash
