@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "test": "jest"
   },
   "author": "Alpha Olomi",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "mongoose": "^5.7.1"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "nodemon": "^1.19.2"
   }
 }
