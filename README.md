@@ -48,7 +48,7 @@ Via Git, Yarn is preferred but optional.
 
 - Fork repo
 ```bash
-git clone https://github.com/gordonnchy/portal.git
+git clone https://github.com/githubUsername/portal.git
 
 cd portal
 
