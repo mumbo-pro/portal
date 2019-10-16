@@ -48,9 +48,9 @@ Via Git, Yarn is preferred but optional.
 
 - Fork repo
 ```bash
-git clone https://github.com/mumbo-pro/portal-front.git
+git clone https://github.com/gordonnchy/portal.git
 
-cd portal-front
+cd portal
 
 yarn install
 ```
