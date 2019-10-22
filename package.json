@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "./bin/www",
   "private": true,
+  "description": "A case study project to connect with recruiters, HR managers & people in the same industry to find the best job opportunities,",
   "scripts": {
     "start": "node ./bin/www",
     "serve": "nodemon ./bin/www",
@@ -28,5 +29,22 @@
   "devDependencies": {
     "jest": "^24.9.0",
     "nodemon": "^1.19.2"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumbo-pro/portal.git"
+  },
+  "keywords": [
+    "portal",
+    "job",
+    "jobsearch"
+  ],
+  "bugs": {
+    "url": "https://github.com/mumbo-pro/portal/issues"
+  },
+  "homepage": "https://github.com/mumbo-pro/portal#readme"
 }
