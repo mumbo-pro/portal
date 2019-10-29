@@ -1,7 +1,4 @@
-# Portal Engine
-
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
+# Portal Engine [![Software License][ico-license]](LICENSE.md) [![Build Status][ico-travis]][link-travis]
 
 A case study project to connect with recruiters, HR managers & people in the same industry to find the best job opportunities,
 
@@ -110,6 +107,7 @@ If you discover any security related issues, please email [hello@alphaolomi.com]
 The Apache 2 License. Please see [License File](LICENSE) for more information.
 
 [ico-license]: https://img.shields.io/badge/license-Apache2-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/mumbo-pro/portal/master.svg?style=flat-square
-[link-travis]: https://travis-ci.org/mumbo-pro/portal
+[ico-travis]: https://img.shields.io/travis/com/mumbo-pro/portal?style=flat-square
+[link-travis]: https://travis-ci.com/mumbo-pro/portal
 [link-contributors]: ../../contributors
+
