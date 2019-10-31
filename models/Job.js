@@ -1,43 +1,40 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Create Schema
 const JobSchema = new Schema({
   jobtitle: {
     type: String,
     required: true
   },
-  //fulltime ,parttime.....
-  jobtype:{
- type:String,
- required:true
+  jobtype: {
+    type: String,
+    required: true
   },
-  city:{
-    type:String,
-    required:true
+  city: {
+    type: String,
+    required: true
   },
-  //type is string because some jobsprovider do not provide the value until the negotiation
-  salary:{
-    type:String,
-    required:true
+  salary: {
+    type: String,
+    required: true
   },
 
-  contacts:{
-    type:String,
-    required:false
+  contacts: {
+    type: String,
+    required: false
   },
-  deadline:{
-    type:Date,
-    required:true
+  deadline: {
+    type: Date,
+    required: true
   },
-  vacancy:{
-    type:Number,
-    required:true
+  vacancy: {
+    type: Number,
+    required: true
   },
 
-  JobDescription:{
-    type:String,
-    required:true
+  job_description: {
+    type: String,
+    required: true
   },
 
   date: {
@@ -46,4 +43,4 @@ const JobSchema = new Schema({
   }
 });
 
-module.exports = Item = mongoose.model('job', JobSchema);
+module.exports = mongoose.model('job', JobSchema);
