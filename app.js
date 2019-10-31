@@ -1,11 +1,11 @@
-var express = require('express');
+const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const config = require('config');
 
-var logger = require('morgan');
+const logger = require('morgan');
 
-var app = express();
+const app = express();
 
 const db = config.get('MONGO_URI');
 
