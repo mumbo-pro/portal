@@ -2,16 +2,13 @@
   "name": "portal",
   "version": "0.0.1",
   "main": "./bin/www",
-  "private": true,
+  "private": true,  
   "description": "A case study project to connect with recruiters, HR managers & people in the same industry to find the best job opportunities,",
   "scripts": {
     "start": "node ./bin/www",
     "serve": "nodemon ./bin/www",
     "debug": "set DEBUG=myapp:* & npm start",
     "test": "jest"
-  },
-  "engines": {
-    "node": "10.16.3"
   },
   "author": "Alpha Olomi",
   "license": "MIT",
